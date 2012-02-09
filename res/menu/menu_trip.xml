@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Menu_server_con"
+          android:icon="@drawable/ic_menu_preferences"
+          android:title="@string/menu_server_con" />
+    <item android:id="@+id/menu_help"
+          android:icon="@drawable/ic_menu_help"
+          android:title="@string/menu_help" />
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tripdetail_background">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/TopRow"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+  
+  	<TextView android:id="@+id/TextViewPlainName"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:shadowColor="#400000"
+    	android:background="#40ffffff"
+    	android:textColor="#FFDF95"
+    	android:textSize="30px"
+    	android:capitalize="characters"
+    	android:textStyle="bold"
+    	/>
+    	
+   	<TextView android:id="@+id/TextViewStartTime"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Vom "
+    	android:shadowColor="#000000"
+    	android:background="#40ffffff"
+    	android:textColor="#FFDF95"
+    	android:textSize="20px"
+    	 />
+    
+    <TextView android:id="@+id/TextViewEndTime"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Bis zum " 
+    	android:shadowColor="#000000"
+    	android:background="#40ffffff"
+    	android:textColor="#FFDF95"
+    	android:textSize="20px"
+    	/>
+  	</LinearLayout>
+    <LinearLayout
+        android:id="@+id/Middle"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+  	<ListView
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+android:id/list"
+		android:cacheColorHint="#00000000" 
+    	/>
+ </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/BottomRow">
+
+       <Button 
+		android:layout_width="fill_parent"
+		android:id="@+id/ButtonAdd"
+		android:onClick="onAddButtonClicked"
+		android:text="@string/addlocationtotrip"
+		android:background="#aaffffff"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:layout_height="60px"
+		/>
+
+</LinearLayout>
+</LinearLayout>
+
+

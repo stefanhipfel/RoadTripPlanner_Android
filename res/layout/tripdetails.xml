@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tripdetail_layout">
+    
+      <ImageView
+      android:id="@+id/list_icon"
+    android:layout_width="80px"
+    android:layout_height="80px"
+    android:layout_marginRight="2px"
+    android:layout_marginTop="2px"
+    android:layout_marginLeft="2px"
+    android:src="@drawable/stay_overnight_icon" />
+    
+    <LinearLayout
+        android:orientation="vertical"
+      android:layout_width="10dip"
+      android:layout_weight="1"
+      android:layout_height="80px">
+
+    <TextView android:id="@+id/list_locationname"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFD0"
+    android:textSize="25px"
+    android:clickable="false"
+    android:capitalize="characters"
+    android:textStyle="bold"
+    android:text="@string/list_locationname"/>
+	
+    
+    <TextView android:id="@+id/list_locationarrivaltime"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFD0"
+    android:textSize="20px"
+    android:capitalize="characters"
+    android:clickable="false"
+    android:textStyle="bold"
+    />
+
+    
+    
+    
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+<EditTextPreference android:title="Web Server"
+android:key="serveradress"
+android:summary="Please provide the web server's address (only for testing purpose)">
+</EditTextPreference>
+
+<EditTextPreference android:title="User Name" 
+android:key="username"
+android:summary="Please provide user name"> 
+</EditTextPreference>
+
+<EditTextPreference android:title="Password" 
+android:password="true"
+android:key="password"
+android:summary="Please enter your password"> 
+</EditTextPreference>
+
+
+
+</PreferenceScreen>

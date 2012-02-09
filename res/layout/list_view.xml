@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/textview_layout">
+
+	<TextView android:id="@+id/list_text1"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="80px"
+		android:textColor="#FFFFD0" android:textSize="40px" android:typeface="serif"
+		android:shadowColor="#040404" android:background="#50ffffff" />
+
+	<TableRow>
+
+		<TextView android:id="@+id/list_text2"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="30px"
+			android:background="#00ffffff" android:textColor="#ffffffff" />
+
+		<TextView android:id="@+id/list_to"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="30px"
+			android:text="@string/list_to" android:background="#00ffffff"
+			android:textColor="#ffffffff" />
+
+		<TextView android:id="@+id/list_text3"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="30px"
+			android:background="#00ffffff" android:textColor="#ffffffff" />
+
+	</TableRow>
+
+</TableLayout>
+    

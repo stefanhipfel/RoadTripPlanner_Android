@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/name_trip" android:id="@+id/textView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/editTitle"
+				android:layout_width="wrap_content"></EditText>
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="Startort" android:id="@+id/textView1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/editStartLoc"
+				android:layout_width="fill_parent" android:text="" />
+
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="Zielort" android:id="@+id/textView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/editEndLoc"
+				android:layout_width="wrap_content" android:text=""></EditText>
+
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="Von" android:id="@+id/textView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<DatePicker android:layout_height="wrap_content"
+				android:id="@+id/editStartTime" android:layout_width="wrap_content"></DatePicker>
+
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="Bis" android:id="@+id/textView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<DatePicker android:layout_height="wrap_content"
+				android:id="@+id/editEndTime" android:layout_width="wrap_content"></DatePicker>
+
+
+		</TableRow>
+
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<Button android:id="@+id/saveTripButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/persist"
+				android:layout_weight="1" android:onClick="onSaveButtonClicked" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/cancelButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/cancel"
+				android:layout_weight="1" android:onClick="onCancelButtonClicked" />
+		</TableRow>
+
+
+
+	</TableLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="de.tiidim.roadtrips" android:versionCode="1"
+	android:versionName="2.2">
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:debuggable="true">
+
+		<activity android:name=".TripList" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="TripAdd" android:label="@string/tripadd_name" />
+		<activity android:name="TripEdit" android:label="@string/tripedit_name" />
+		<activity android:name="TripMap" android:label="@string/tripmap_name" />
+		<activity android:name="Help" android:label="@string/help_name" />
+		<activity android:name="TripPreferences" android:label="@string/tripprefs_name" />
+		<activity android:name="AddLocationToTrip" android:label="@string/addlocationtotrip_name" />
+		<activity android:name="TripDetailView" android:label="@string/tripdetailview_name" />
+		<uses-library android:name="com.google.android.maps" />
+		<uses-library android:name="android.test.runner" />
+	</application>
+
+	<instrumentation android:name="android.test.InstrumentationTestRunner"
+		android:targetPackage="de.tiidim.roadtrips" android:label="Tests for RoadTripPlanner" />
+
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+	<!-- for reference on API levels, see http://developer.android.com/guide/appendix/api-levels.html -->
+</manifest>

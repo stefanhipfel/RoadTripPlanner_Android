@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- android activity labels -->
+	<string name="app_name">RoadTripPlanner</string>
+	<string name="tripadd_name">Neue Reise</string>
+	<string name="tripedit_name">Reise bearbeiten</string>
+	<string name="tripdetailview_name">Details dieser Route</string>
+	<string name="addlocationtotrip_name">Neue Etappe</string>
+	<string name="tripmap_name">Karte</string>
+	<string name="tripprefs_name">Einstellungen</string>
+	<string name="help_name">Hilfe!</string>
+	<!-- end activity labels -->
+
+	<string name="no_trips">Noch keine Reisen angelegt</string>
+	<string name="no_routings">Noch keine Zwischenstops angelegt</string>
+	<string name="new_trip">N E U E &quot; &quot; &quot; R E I S E</string>
+	<string name="delete_trip">Reise löschen</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="persist">Speichern</string>
+	<string name="name_trip">Name</string>
+	<string name="list_to">&quot; bis &quot; </string>
+	<string name="delete_loc">Löschen</string>
+	<string name="new_loc">Speichern</string>
+	<string name="addlocationtotrip">E T A P P E &quot; &quot; &quot; H I N Z U F Ü G E N</string>
+	<string name="tripname">Name: </string>
+	<string name="backtomainactivity">Zur Startseite</string>
+	<string name="shithappens">Ups! Das hätte nicht passieren dürfen.</string>
+	<string name="list_locationname">Ortsname: </string>
+	<string name="list_locationarrivaltime">Anreise: </string>
+	<string name="showtripmap">auf Karte anzeigen</string>
+	<string name="addloc_stayOvernight">mit Übernachtung: </string>
+	<string name="uploadtrip">Trip online stellen</string>
+
+	<string name="menu_server_con">Einstellungen</string>
+	<string name="menu_help">Hilfe</string>
+	<string name="contextText">Trip löschen?</string>
+	<string name="menu_map">Auf Karte anzeigen</string>
+    <string name="menu_upload">Ab in die Cloud damit</string>
+    <string name="menu_home">Startbildschirm</string>
+    <string name="error_loc">sorry - Fehler beim Zuordnen des Ortes...</string>
+    <string name="error_loc_not_found">Diesen Ort kennt Google nicht</string>
+    <string name="error_loc_select">Was meinten Sie?</string>
+    <string name="start">Start-Ort</string>
+    <string name="end">Ziel-Ort</string>
+    <string name="transfer_completed">Übertragung abgeschlossen</string>
+    <string name="transfer_error">Fehler bei der Übertragung</string>
+    <string name="transfer_server_er">Server nicht erreichbar</string>
+    
+</resources>
